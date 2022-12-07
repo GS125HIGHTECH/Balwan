@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+}
+
+div[id="controls"] {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 12px;
+  left: 0;
+  padding: 2px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  z-index: 1;
+}
+
+input[type="button"] {
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  height: 2em;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+input[id] {
+  width: 10em;
+}
+
+input[type="button"]:active {
+  transform: translateY(1px);
+}
+
+.inactive {
+  background-color: #8c8c8c;
+}
+
+.inactive:hover {
+  background-color: #cccccc;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.active:hover {
+  background-color: #6cdf70;
+}
